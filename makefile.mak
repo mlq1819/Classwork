@@ -3,8 +3,11 @@ CFLAGS = -g -Wall
 
 all: $(P)
 
-$(P): $(P).cpp
-	g++ $(CFLAGS) $(P).cpp -o $(P)
+$(P): $(P).o
+	g++ $(CFLAGS) $(P).o -o $(P)
+	
+$(P).o: $(P).cpp $(P).h
+	g++ $(CFLAGS) -c $(P) -o $(P).o
 	
 clean:
 	rm -rf $(P)
