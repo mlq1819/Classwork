@@ -6,7 +6,7 @@ class Dog{
 	protected:
 		string breed;
 	public:
-		Dog(string name);
+		Dog(string);
 		string name;
 		void bark();
 		~Dog();
