@@ -1,6 +1,6 @@
 #ifndef MQ_DOG_CPP
 #define MQ_DOG_CPP
-#include <Dog.h>
+#include "Dog.h"
 #include <string>
 
 using namespace std;
