@@ -5,7 +5,6 @@
 using namespace std;
 
 Dog::Dog(string name){
-	this->name = name;
 	this->breed = "Mutt";
 }
 
@@ -17,12 +16,12 @@ Dog::~Dog(){
 	cout << "The " << this->breed << " says, Goodbye Cruel World!" << endl;
 }
 
-Lab::Lab(string name){
-	super(name);
+Lab::Lab(){
 	super->breed = "Lab";
 }
 
 int main(){
 	Lab Smelly = Lab("Smelly");
+	Smelly.bark();
 	return 0;
 }
