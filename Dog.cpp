@@ -9,12 +9,12 @@ Dog::Dog(string name){
 	this->breed = "Mutt";
 }
 
-void Dog::Bark(){
-	cout << "Bark!" << endl;
+void Dog::bark(){
+	cout << "The " << this->breed << " says, Bark!" << endl;
 }
 
 Dog::~Dog(){
-	cout << "Goodbye Cruel World!" << endl;
+	cout << "The " << this->breed << " says, Goodbye Cruel World!" << endl;
 }
 
 Lab::Lab(string name){
@@ -23,6 +23,6 @@ Lab::Lab(string name){
 }
 
 int main(){
-	
+	Lab Smelly = Lab("Smelly");
 	return 0;
 }

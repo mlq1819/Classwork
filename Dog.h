@@ -10,12 +10,12 @@ class Dog{
 		std::string name;
 		void bark();
 		~Dog();
-}
+};
 
 class Lab : public Dog{
 	public:
 		Lab(std::string name);
-}
+};
 
 
 #endif
