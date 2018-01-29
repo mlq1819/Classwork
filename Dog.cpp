@@ -21,7 +21,9 @@ Lab::Lab(string name){
 }
 
 int main(){
-	Lab Smelly = Lab("Smelly");
-	Smelly.bark();
+	Lab lab = Lab("lab");
+	Dog dog = Dog("dog");
+	lab.bark();
+	dog.bark();
 	return 0;
 }
