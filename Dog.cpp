@@ -16,3 +16,12 @@ void Dog::Bark(){
 Dog::~Dog(){
 	cout << "Goodbye Cruel World!" << endl;
 }
+
+Lab::Lab(string name){
+	this->name = name;
+	this->breed = "Lab";
+}
+
+void main(){
+	
+}
