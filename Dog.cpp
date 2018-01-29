@@ -17,7 +17,6 @@ Dog::~Dog(){
 }
 
 Lab::Lab(string name){
-	super(name);
 	this->breed = "Lab";
 }
 
