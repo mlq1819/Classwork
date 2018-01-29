@@ -11,3 +11,5 @@ $(P).o: $(P).cpp $(P).h
 	
 clean:
 	rm -rf *.o $(P)
+run: all
+	./$(P)
