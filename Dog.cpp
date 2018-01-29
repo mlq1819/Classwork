@@ -18,10 +18,11 @@ Dog::~Dog(){
 }
 
 Lab::Lab(string name){
-	this->name = name;
-	this->breed = "Lab";
+	super(name);
+	super->breed = "Lab";
 }
 
-void main(){
+int main(){
 	
+	return 0;
 }
