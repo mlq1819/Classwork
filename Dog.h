@@ -6,6 +6,7 @@ class Dog{
 	protected:
 		std::string breed;
 	public:
+		Dog(){}
 		Dog(std::string);
 		void bark();
 		~Dog();
