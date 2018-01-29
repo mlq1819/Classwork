@@ -4,10 +4,10 @@
 
 class Dog{
 	protected:
-		string breed;
+		std::string breed;
 	public:
 		Dog(string);
-		string name;
+		std::string name;
 		void bark();
 		~Dog();
 }
