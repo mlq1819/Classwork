@@ -16,7 +16,7 @@ Dog::~Dog(){
 	cout << "The " << this->breed << " says, Goodbye Cruel World!" << endl;
 }
 
-Lab::Lab(){
+Lab::Lab(string name){
 	super->breed = "Lab";
 }
 
